@@ -2,6 +2,8 @@
 
 **Sistema Operacional**:
 
+Um SO é um conjunto de programas cuja função é gerenciar todos os recursos disponibilizados por um ou mais computadores.
+
     - Gerencia o compartilhamento de recursos entre entidades concorrentes.
     - Fornece vários serviços comuns que torna as aplicações mais fáceis de se escrever.
     - Serve como interface entre programas de aplicações e o hardware.
