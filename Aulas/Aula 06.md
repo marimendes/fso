@@ -20,7 +20,13 @@ Criar o processo
     - Se ele retornar um valor > 0 - está no pai e o número é o PID do filho
     - Se ele retornar um valor negativo - o fork( ) falhou
     - O fork pode falhar se for extrapolado o número de processos
-    
+
 
 **OBS:** se o processo filho morre, mas o pai não pega o retorno disso, o processo vira um "zumbi" e não da pra matar esse processo.
 Se o processo pai morre antes do processo filho, o processo anterior passa a ser o pai desse filho.
+
+
+**Prática**
+
+``` pstree ``` - Mostra os processos em execução
+
